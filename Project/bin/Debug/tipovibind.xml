@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ArrayOfType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Type>
+    <ID>1</ID>
+    <ime>fd</ime>
+    <max_br>2</max_br>
+    <Slika>file:///E:/BozaTELEFON/Camera/IMG_20161212_203709.jpg</Slika>
+  </Type>
+</ArrayOfType>

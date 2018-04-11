@@ -1,0 +1,175 @@
+﻿<Window x:Class="Project.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AppForKids" Height="350" Width="525" Closed="sacuvaj" >
+    <Window.Resources>
+        <Style x:Key="Font">
+            <Setter Property="TextElement.FontFamily" Value="Fonts/#You are what you eat" />
+        </Style>
+    </Window.Resources>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Project;component/Images/21999-NTOOCX.jpg" Stretch="UniformToFill" TileMode="None" />
+        </Grid.Background>
+        <Button Content="" Height="57" HorizontalAlignment="Left" Margin="62,29,0,0" Name="button1" VerticalAlignment="Top" Width="70" BorderBrush="#00000000" Click="removeSelected">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" Opacity="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/Project;component/Images/crv.png" />
+            </Button.Background>
+        </Button>
+        <Button Content="" Height="48" HorizontalAlignment="Left" Margin="152,12,0,0" Name="button2" Click="izmeni" VerticalAlignment="Top" Width="62" BorderBrush="#00000000">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" Opacity="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/Project;component/Images/plavo.png" />
+            </Button.Background>
+        </Button>
+        <Button Content="" Height="50" HorizontalAlignment="Left" Margin="12,92,0,0" Name="button3" VerticalAlignment="Top" Width="61" Click="addNew" BorderBrush="#00000000">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" Opacity="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/Project;component/Images/zele.png" />
+            </Button.Background>
+        </Button>
+        <Button Content="" Height="55" HorizontalAlignment="Left" Margin="368,31,0,0" Name="button6"  Click="removeSelected1" VerticalAlignment="Top" Width="71" BorderBrush="#00000000">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" Opacity="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/Project;component/Images/crv.png" />
+            </Button.Background>
+        </Button>
+        <Button Content="" Height="48" HorizontalAlignment="Left" Margin="291,12,0,0" Name="button5" VerticalAlignment="Top" Width="63" Click="izmeni1" BorderBrush="#00000000">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" Opacity="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/Project;component/Images/plavo.png" />
+            </Button.Background>
+        </Button>
+        <Button Content="" Height="48" HorizontalAlignment="Left" Margin="425,92,0,0" Name="button4" Click="addNew1" VerticalAlignment="Top" Width="66" BorderBrush="#00000000">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" Opacity="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/Project;component/Images/zele.png" />
+            </Button.Background>
+        </Button>
+        <DataGrid AutoGenerateColumns="False" CanUserAddRows="False"  ItemsSource="{Binding types}"  Style="{StaticResource Font}" FontWeight="Bold" Height="140" HorizontalAlignment="Left" Margin="12,146,0,0" Name="dataGrid1"  VerticalAlignment="Top" Width="220" OpacityMask="#90000000" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="Naziv" Binding="{Binding ime}"/>
+                <DataGridTextColumn Header="Max" Width="*" Binding="{Binding max_br}"/>
+                <DataGridTextColumn Header="Slika" Width="*" Binding="{Binding Slika}"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid AutoGenerateColumns="False" CanUserAddRows="False" ItemsSource="{Binding nodes}"  Style="{StaticResource Font}" FontWeight="Bold" Height="141" HorizontalAlignment="Left" Margin="282,146,0,0" Name="dataGrid2" VerticalAlignment="Top" Width="209" OpacityMask="#93000000">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding ID}"/>
+                <DataGridTextColumn Header="Naziv" Binding="{Binding ime}"/>
+                <DataGridTextColumn Header="Opis" Width="*" Binding="{Binding opis}"/>
+                <DataGridTextColumn Header="Tip" Width="*" Binding="{Binding type}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

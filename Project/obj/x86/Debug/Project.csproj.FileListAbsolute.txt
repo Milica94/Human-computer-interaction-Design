@@ -1,0 +1,85 @@
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\MainWindow.baml
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\App.g.cs
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\Project_MarkupCompile.cache
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\AddType.baml
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\AddType.g.cs
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\ModifyNode.baml
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\ModifyNode.g.cs
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\ModifyType.baml
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\ModifyType.g.cs
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\bin\Debug\Project.exe
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\bin\Debug\Project.pdb
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\AddNode.baml
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\AddNode.g.cs
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\Project.g.resources
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\Project.Properties.Resources.resources
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\Project.csproj.GenerateResource.Cache
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\Project.exe
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\Project.pdb
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\obj\x86\Debug\Project_Content.g.cs
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\bin\Debug\sound\Lisa - D'oh!.wav
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\bin\Debug\sound\Lisa - Noooo!.wav
+C:\Users\Milica\Documents\Visual Studio 2010\Projects\Project\Project\bin\Debug\sound\song.mp3
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\Project.exe
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\Project.pdb
+C:\Users\Milica\Desktop\Project\Project\bin\Debug\sound\Lisa - D'oh!.wav
+C:\Users\Milica\Desktop\Project\Project\bin\Debug\sound\Lisa - Noooo!.wav
+C:\Users\Milica\Desktop\Project\Project\bin\Debug\sound\song.mp3
+C:\Users\Milica\Desktop\Project\Project\bin\Debug\Project.exe
+C:\Users\Milica\Desktop\Project\Project\bin\Debug\Project.pdb
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\AddNode.baml
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\AddType.baml
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\MainWindow.baml
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\ModifyNode.baml
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\ModifyType.baml
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\AddNode.g.cs
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\AddType.g.cs
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\ModifyNode.g.cs
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\ModifyType.g.cs
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\App.g.cs
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\Project_Content.g.cs
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\Project_MarkupCompile.cache
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\Project.g.resources
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\Project.Properties.Resources.resources
+C:\Users\Milica\Desktop\Project\Project\obj\x86\Debug\Project.csproj.GenerateResource.Cache
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project.exe
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project.pdb
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\AddNode.baml
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\AddType.baml
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\MainWindow.baml
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\ModifyNode.baml
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\ModifyType.baml
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\AddNode.g.cs
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\AddType.g.cs
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\MainWindow.g.cs
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\ModifyNode.g.cs
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\ModifyType.g.cs
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\App.g.cs
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project_MarkupCompile.cache
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project.g.resources
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project.Properties.Resources.resources
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project.csproj.GenerateResource.Cache
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\bin\Debug\Project.exe
+E:\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\bin\Debug\Project.pdb
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project.exe
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project.pdb
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\bin\Debug\Project.exe
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\bin\Debug\Project.pdb
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\AddNode.baml
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\AddType.baml
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\MainWindow.baml
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\ModifyNode.baml
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\ModifyType.baml
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\AddNode.g.cs
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\AddType.g.cs
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\MainWindow.g.cs
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\ModifyNode.g.cs
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\ModifyType.g.cs
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\App.g.cs
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project_MarkupCompile.cache
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project.g.resources
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project.Properties.Resources.resources
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project.csproj.GenerateResource.Cache
+E:\C\Fakultet\III godina\GIM\Projekat_HCI\Project\Project\obj\x86\Debug\Project_Content.g.cs

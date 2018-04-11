@@ -1,0 +1,70 @@
+﻿<Window x:Class="Project.ModifyNode"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ModifyNode" Height="300" Width="300">
+    <Window.Resources>
+        <Style x:Key="Font">
+            <Setter Property="TextElement.FontFamily" Value="Fonts/#You are what you eat" />
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="/Project;component/Images/Minions_full_hd27.jpg" Stretch="UniformToFill" TileMode="None" />
+    </Window.Background>
+    <Grid>
+        <Label Content="Modify Node" Height="44" Foreground="WhiteSmoke" HorizontalAlignment="Left" Margin="20,12,0,0" Name="label1" VerticalAlignment="Top" Width="233" FontSize="30" Style="{StaticResource Font}"/>
+        <Label Content="ID:" Height="29" HorizontalAlignment="Left" Foreground="WhiteSmoke" Margin="79,65,0,0" Name="label2" VerticalAlignment="Top" Width="37" Style="{StaticResource Font}" FontWeight="Bold" FontSize="16" />
+        <Label Content="Name:" Height="28" HorizontalAlignment="Left" Foreground="WhiteSmoke"  Margin="52,109,0,0" Name="label3" VerticalAlignment="Top" Style="{StaticResource Font}" FontWeight="Bold" FontSize="16" />
+        <Label Content="Description:" Height="28" HorizontalAlignment="Left" Foreground="WhiteSmoke" Margin="0,153,0,0" Name="label4" VerticalAlignment="Top" Style="{StaticResource Font}" FontWeight="Bold" FontSize="16"/>
+        <TextBox Height="29" HorizontalAlignment="Left" Margin="141,65,0,0" IsEnabled="False" Name="textBox1" VerticalAlignment="Top" Width="50" Style="{StaticResource Font}" FontWeight="Bold" FontSize="14" BorderBrush="#83000000" Foreground="#ED000000"  Background="#85FFFFFF" />
+        <TextBox Height="28" HorizontalAlignment="Left" Margin="141,0,0,124" Name="textBox2" VerticalAlignment="Bottom" Width="109" Style="{StaticResource Font}" FontWeight="Bold" FontSize="14" BorderBrush="#83000000" Foreground="#ED000000"  Background="#85FFFFFF" />
+        <TextBox Height="28" HorizontalAlignment="Left" Margin="141,153,0,0" Name="textBox3" VerticalAlignment="Top" Width="109" Style="{StaticResource Font}" FontWeight="Bold" FontSize="14" BorderBrush="#83000000" Foreground="#ED000000"  Background="#85FFFFFF"     />
+        <Button Content="" Height="56" HorizontalAlignment="Right" Margin="0,185,162,0" Name="button1" VerticalAlignment="Top" Width="82" BorderBrush="#00000000" Click="sacuvaj1">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" Opacity="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/Project;component/Images/Happy-Minion-Icon.png" />
+            </Button.Background>
+        </Button>
+        <Button Content="" Height="56" HorizontalAlignment="Left" Margin="183,185,0,0" Name="button2" VerticalAlignment="Top" Width="70" BorderBrush="#00000000" Click="zatvori">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" Opacity="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/Project;component/Images/Curious-Minion-Icon.png" />
+            </Button.Background>
+        </Button>
+    </Grid>
+</Window>

@@ -1,0 +1,72 @@
+﻿<Window x:Class="Project.AddNode"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AddNode" Height="300" Width="300">
+    <Window.Resources>
+        <Style x:Key="Font">
+            <Setter Property="TextElement.FontFamily" Value="Fonts/#You are what you eat" />
+        </Style>
+    </Window.Resources>
+    <Window.Background>
+        <ImageBrush ImageSource="/Project;component/Images/yyyy.jpg" Stretch="UniformToFill" TileMode="None" />
+    </Window.Background>
+    <Grid>
+        <Label Content="Add Node" Height="52" Foreground="Black"    HorizontalAlignment="Left" Margin="58,-2,0,0" Name="label1" VerticalAlignment="Top"  FontSize="30" Style="{StaticResource Font}" Width="175" />
+        <Label Content="ID:" Foreground="Black"   Height="28" HorizontalAlignment="Left" Margin="82,42,0,0" Name="label2" VerticalAlignment="Top"  Style="{StaticResource Font}" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Name:" Height="28" HorizontalAlignment="Left" Margin="49,76,0,0" Name="label3" VerticalAlignment="Top"  Style="{StaticResource Font}" FontWeight="Bold" FontSize="16"/>
+        <Label Content="Description:" Height="28" HorizontalAlignment="Left" Margin="0,113,0,0" Name="label4" VerticalAlignment="Top" Style="{StaticResource Font}" FontWeight="Bold" FontSize="16"/>
+        <Button Content="" Height="62" HorizontalAlignment="Left" Margin="28,187,0,0" Name="button1" VerticalAlignment="Top" Width="85" BorderBrush="#00000000" Click="spremi">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" Opacity="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/Project;component/Images/Happy-Minion-Icon.png" Stretch="Fill" TileMode="None" />
+            </Button.Background>
+        </Button>
+        <Button Content="" Height="56" HorizontalAlignment="Left" Margin="171,187,0,0" Name="button2" VerticalAlignment="Top" Width="73" BorderBrush="#00000000" Click="zatvori">
+            <Button.Style>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Background"  Value="Transparent"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="{x:Type Button}">
+                                <Border Background="{TemplateBinding Background}" Opacity="1">
+                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                </Border>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                    <Style.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Trigger>
+                    </Style.Triggers>
+                </Style>
+            </Button.Style>
+            <Button.Background>
+                <ImageBrush ImageSource="/Project;component/Images/Curious-Minion-Icon.png" Stretch="Fill" TileMode="None" />
+            </Button.Background>
+        </Button>
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="146,148,0,0" Name="comboBox1" VerticalAlignment="Top" Width="120" />
+        <TextBox Height="23"  HorizontalAlignment="Right" Background="#85FFFFFF" Margin="0,47,88,0" Name="textBox1" VerticalAlignment="Top" Width="44"  Style="{StaticResource Font}" FontWeight="Bold" FontSize="14" BorderBrush="#83000000" Foreground="#ED000000"  GotFocus="removeBorder"/>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="146,113,0,0" Name="textBox2" VerticalAlignment="Top" Width="120"  Style="{StaticResource Font}" FontWeight="Bold" FontSize="14" BorderBrush="#83000000" Foreground="#ED000000" Background="#85FFFFFF"   GotFocus="removeBorder2"/>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="146,81,0,0" Name="textBox3" VerticalAlignment="Top" Width="120"  Style="{StaticResource Font}" FontWeight="Bold" FontSize="14" BorderBrush="#83000000" Foreground="#ED000000" Background="#85FFFFFF"  GotFocus="removeBorder3"/>
+        <Label Content="Type:" Height="28" HorizontalAlignment="Left" Margin="66,148,0,0" Name="label5" VerticalAlignment="Top"  Style="{StaticResource Font}" FontWeight="Bold" FontSize="14"/>
+    </Grid>
+</Window>
